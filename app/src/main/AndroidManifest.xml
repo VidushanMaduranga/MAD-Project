@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ecommerceapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".AdminCategoryActivity"></activity>
+        <activity android:name=".ChangePwdActivity"/>
+        <activity android:name=".Admin_handling_user_profile" />
+        <activity android:name=".AccountSettingActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Product.ViewProduct" />
+        <activity android:name=".Product.UpdateProduct" />
+        <activity android:name=".Product.productRetrieve" />
+        <activity android:name=".Product.ProductMenu" />
+        <activity android:name=".Product.AddProduct" />
+        <activity android:name=".payment.Verify_OTP" />
+        <activity android:name=".payment.SuccessMsg" />
+        <activity android:name=".payment.PaymentType" />
+        <activity android:name=".payment.Newaddress" />
+        <activity android:name=".payment.CurencyConv" />
+        <activity android:name=".payment.CreditCardPayment" />
+        <activity android:name=".payment.AdminUpdateData" />
+        <activity android:name=".payment.AdminPaymentHandling" />
+        <activity android:name=".Feedback.feedbackRetrieveData" />
+        <activity android:name=".Feedback.FeedbackManage" />
+        <activity android:name=".Feedback.FeedbackAdapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".Discount.ViewDiscount" />
+        <activity android:name=".Discount.UpdateDiscount" />
+        <activity android:name=".Discount.DiscountMenu" />
+        <activity android:name=".Discount.AddDiscount" />
+        <activity android:name=".RegisterActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
